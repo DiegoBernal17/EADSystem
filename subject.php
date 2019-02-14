@@ -66,7 +66,7 @@ if(isset($_POST['name'])) {
                 </div>
                 <div class="input-field col s6">
                   <input id="hours_practice" type="text" class="number" name="hours_practice" value="<?php echo $Subject->hours_practice ?>" required>
-                  <label for="hours_practice">Nombre de la materia</label>
+                  <label for="hours_practice">Horas práctica</label>
                 </div>
                 <div class="input-field col s6">
                   <input id="credits" type="number" class="validate" name="credits" value="<?php echo $Subject->credits ?>" required>
